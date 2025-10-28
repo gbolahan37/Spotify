@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Cossette+Titre:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/spotify_logo-removebg-preview.png" alt="">
+        </div>
+        <div class="middle-nav">
+            <div class="navbar-home">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#FBFBFB" viewBox="0 0 256 256"><path d="M219.31,108.68l-80-80a16,16,0,0,0-22.62,0l-80,80A15.87,15.87,0,0,0,32,120v96a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V160h32v56a8,8,0,0,0,8,8h64a8,8,0,0,0,8-8V120A15.87,15.87,0,0,0,219.31,108.68ZM208,208H160V152a8,8,0,0,0-8-8H104a8,8,0,0,0-8,8v56H48V120l80-80,80,80Z"></path></svg>
+            </div>
+            <div class="nav-search">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="32" fill="#FBFBFB" viewBox="0 0 256 256"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg>
+                <input type="search" placeholder="What do you want to play?">
+                <div class="brower">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="32" fill="#FBFBFB" viewBox="0 0 256 256"><path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,16V88H40V56Zm0,144H40V104H216v96Z"></path></svg>
+                </div>
+            </div>
+        </div>
+        <button class="install-btn">Install App</button>
+        <div class="navbar-right">
+            <svg xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;" width="20" height="32" fill="#F0F0F0" viewBox="0 0 256 256"><path d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;" width="20" height="32" fill="#F0F0F0" viewBox="0 0 256 256"><path d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z"></path></svg>
+            <div class="profile-avatar">S</div>
+        </div>
+    </nav>
+    <main>
+        <div class="side-bar">
+            <div class="side-nav">
+                <h4>Your Library</h4>
+                <div class="side-icons">
+                    <div class="add">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FBFBFB" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path></svg>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FBFBFB" viewBox="0 0 256 256"><path d="M216,48V96a8,8,0,0,1-16,0V67.31l-50.34,50.35a8,8,0,0,1-11.32-11.32L188.69,56H160a8,8,0,0,1,0-16h48A8,8,0,0,1,216,48ZM106.34,138.34,56,188.69V160a8,8,0,0,0-16,0v48a8,8,0,0,0,8,8H96a8,8,0,0,0,0-16H67.31l50.35-50.34a8,8,0,0,0-11.32-11.32Z"></path></svg>
+                </div>
+            </div>
+        </div>
+        <div class="main-page">
+            <div class="main-nav">
+                <button>All</button>
+                <button>Music</button>
+                <button>Podcast</button>
+            </div>
+            <div class="recently">
+                <div class="song">
+                    <img src="img/Screenshot 2025-10-29 002859.png" alt="">
+                    <div class="song-title">
+                        <span>The Boy Who Played the Harp</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="img/Screenshot 2025-10-29 002859.png" alt="">
+                    <div class="song-title">
+                        <span>The Boy Who Played the Harp</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="img/Screenshot 2025-10-29 002859.png" alt="">
+                    <div class="song-title">
+                        <span>The Boy Who Played the Harp</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="img/Screenshot 2025-10-29 002859.png" alt="">
+                    <div class="song-title">
+                        <span>The Boy Who Played the Harp</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="img/Screenshot 2025-10-29 002859.png" alt="">
+                    <div class="song-title">
+                        <span>The Boy Who Played the Harp</span>
+                    </div>
+                </div>
+                <div class="song">
+                    <img src="img/Screenshot 2025-10-29 002859.png" alt="">
+                    <span class="song-title">The Boy Who Played the Harp</span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
